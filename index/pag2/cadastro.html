@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/hp.icon.ico" type="image/x-icon">
+        <title>Carta para Hogwarts</title>
+        <style>
+            body{
+                background-image: url(Imagens/Fundo.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;     
+            }
+            label{
+                color: #000000;
+                font-style: italic;
+                font-size: 25px;
+                text-align: center;
+            }
+            p{
+                font-size: 30px;
+                color: #000000;
+                text-align: center;
+            }
+            h1{
+                color: #000000;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <img src="Imagens/brasao.png.png" width="8%" align="right">
+        <img src="Imagens/Emblema.png" width="9%" align="left">        
+        <h1>Cadastro para Hogwarts</h1>
+        <p>Complete todas as informações abaixo:</p>
+        <form>
+            <label><strong>Nome completo:</strong></label>
+            <input type="text" name="nome" placeholder="Nome">
+            <br><br>
+            <label><strong>Sua cidade:</strong></label>
+            <input type="text" name="cidade" placeholder="Sua cidade">
+            <br> <br>  
+            <label><strong>Número da casa:</strong></label>
+            <input type="number" name="number" placeholder="Número da sua casa">
+            <br><br>
+            <label><strong>Data de nascimento:</strong></label>
+            <input type="date" name="date">
+            <br><br>
+            <label><strong>Qual seu nivel de conhecimento sobre o mundo mágico e suas habilidades com mágia:</strong></label>
+            <br><br>
+            <textarea rows="5" cols="50" placeholder="Descreva sobre você aqui."></textarea>
+            <br><br>
+            <label><strong>Escolha uma das casas que você sonha em estar:</strong></label>
+            <br>
+            <input type="checkbox" name="casa" value="Grifinória">
+            <label><strong>Grifinória<strong></label>
+            <input type="checkbox" name="casa" value="Lufa-lufa">
+            <label><strong>Lufa-Lufa</strong></label>
+            <input type="checkbox" name="casa" value="Corvinal">
+            <label><strong>Corvinal</strong></label>
+            <input type="checkbox" name="casa" value="Sonserina">
+            <label><strong>Sonserina</strong></label>
+            <br><br>
+            <button type="submit" value="Enviar">Enviar</button>      
+        </form>
+    </body>
+</html>
